@@ -1,0 +1,91 @@
+body {
+    max-width: 950px;
+    border: 1px solid lightgray;
+    padding: 25px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 40pt;
+    
+}
+
+h2 {
+    font-family: 'Big Shoulders Display', cursive; 
+}
+
+.date {
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 100;
+    font-size: 16px;
+    color: darkgrey;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: grey;
+}
+
+li {
+    list-style: none;
+    padding: 1px;
+    
+}
+
+.media-links ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+div.ingredient-bg {
+    height: 305px;
+    width: 899px;
+    background-image: url("./img/list-bg.png");
+}
+
+#ingredient-list li {
+    font-family: 'Indie Flower', cursive;
+    font-size: 24px;        
+}
+
+ul#ingredient-list {
+    columns: 2;
+}
+
+div#share-button img {
+    height: 50px;
+    width: 100px;
+}
+
+section.author {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+div.author-pic img {
+    height: 100px;
+    width: 100px;
+}
+
+.author div {
+    display: flex;
+    justify-content: space-around;
+}
+.author-text p {
+    font-size: 75%;
+}
+
+div.author-text {
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 5px;
+    
+}
